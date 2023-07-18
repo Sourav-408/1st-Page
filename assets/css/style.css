@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bg-color {
+    background-color: #1E71FF;
+    min-height: 120vh;
+}
+
+.py-30 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    border-radius: 210px;
+
+    background-color: #4B8DFF;
+}
+
+.ml-10 {
+    margin-left: 20px;
+}
+
+
+.pic-position {
+    position: absolute;
+    left: 0%;
+}
+
+.relative {
+    position: relative;
+}
+
+.list {
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.list:hover{
+    color:#E8F1FF;
+}
+
+.box {
+    width: 400px;
+    height: 192px;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+.header-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128.4%;
+    /* 96.3px */
+    letter-spacing: -1.5px;
+}
+
+.para-header {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box1 {
+    position: absolute;
+    top: 65%;
+    left: 7.3%;
+
+}
+
+.btn1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 210px;
+    background-color: white;
+}
+.btn1:hover{
+    background-color:#4B8DFF;
+    color: white;
+    border: 2px solid white;
+}
+
+.color {
+    color: #1E71FF;
+}
+
+.btn2 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: #1E71FF;
+
+    border-radius: 210px;
+}
+.btn2:hover{
+    background-color: #4B8DFF;
+}
+.color1 {
+    color: white;
+}
+
+.box2 {
+    position: absolute;
+    top: 75%;
+    left: 7.3%;
+}
+
+.hero-position {
+    padding-top: 80px;
+    margin-left: 600px;
+    width: 460px;
+
+}
+
+.head-h3 {
+    color: #2B353E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128.4%;
+    /* 57.78px */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box-head {
+    width: 950px;
+    height: 60px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-para {
+    width: 560px;
+    height: 145px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h3-para {
+    color: rgba(43, 53, 62, 0.70);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.7%;
+    /* 29.106px */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.bg-lightblue {
+    background-color: #E8F1FF;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.py-50 {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.h4-head {
+    color: #2B353E;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128.4%;
+    /* 57.78px */
+    padding-top: 50px;
+
+
+    width: 460px;
+    height: 116px;
+}
+
+.p-content {
+    color: rgba(43, 53, 62, 0.70);
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.7%;
+    /* 33.957px */
+    width: 460px;
+    height: 35px;
+    padding-top: 50px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.box3 {
+    padding-top: 70px;
+    margin-left: 30px;
+
+}
+
+.para-5200 {
+    color: rgba(43, 53, 62, 0.70);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 161.7%;
+    /* 29.106px */
+    width: 274px;
+}
+
+.use-chat-app {
+    color: rgba(43, 53, 62, 0.70);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.7%;
+}
+
+.mt-30 {
+    margin-top: 50px;
+
+}
+
+.line {
+    margin-top: 150px;
+    margin-right: 270px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+/* .col-4{
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+} */
+
+.head-footer {
+    width: 110px;
+    height: 30px;
+}
+
+.para-footer {
+    color: rgba(43, 53, 62, 0.70);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.7%;
+    /* 24.255px */
+    width: 168px;
+}
+
+.mt-90 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-90 {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+.font{
+    color: rgba(43, 53, 62, 0.70);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 161.7%;
+        /* 24.255px */
+}
+.font:hover{
+   color:#E8F1FF;
+}
+.f-chat{
+    color: #1E71FF;
+        font-family: Poppins;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 116.016%;
+        /* 30.164px */
+        letter-spacing: -0.52px;
+}
+/* .f-app{
+    color: #1E71FF;
+        font-family: poppins;9 
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: 116.016%;
+        letter-spacing: -0.52px;
+} */
+
+h3>span{
+    color: #1E71FF;
+        font-family: poppins;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: 116.016%;
+        letter-spacing: -0.52px;
+}
+.ml-130{
+    margin-left: 140px;
+}
